@@ -80,7 +80,7 @@ class _SettingsAndAboutPageState extends State<SettingsAndAboutPage> {
                           context: context,
                           applicationName: 'FMTC Demo',
                           applicationVersion:
-                              'for v8.0.0\n(on ${Platform().operatingSystemFormatted})',
+                              'for v8.0.0\n(on ${_formatOperatingSystem()})',
                           applicationIcon: Image.asset(
                             'assets/icons/ProjectIcon.png',
                             height: 48,
@@ -116,21 +116,19 @@ class _SettingsAndAboutPageState extends State<SettingsAndAboutPage> {
       );
 }
 
-extension on Platform {
-  String get operatingSystemFormatted {
-    switch (Platform.operatingSystem) {
-      case 'android':
-        return 'Android';
-      case 'ios':
-        return 'iOS';
-      case 'linux':
-        return 'Linux';
-      case 'macos':
-        return 'MacOS';
-      case 'windows':
-        return 'Windows';
-      default:
-        return 'Unknown Operating System';
-    }
+String _formatOperatingSystem() {
+  switch (Platform.operatingSystem) {
+    case 'android':
+      return 'Android';
+    case 'ios':
+      return 'iOS';
+    case 'linux':
+      return 'Linux';
+    case 'macos':
+      return 'MacOS';
+    case 'windows':
+      return 'Windows';
+    default:
+      return 'Unknown Operating System';
   }
 }

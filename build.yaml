@@ -1,0 +1,11 @@
+targets:
+  $default:
+    sources:
+      include:
+        - lib/**
+        - example/lib/**
+      exclude:
+        - example/windows/flutter/ephemeral/**
+        - example/**/flutter/ephemeral/**
+        - example/**/.plugin_symlinks/**
+        - '**/*.g.dart'
