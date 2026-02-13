@@ -28,8 +28,8 @@ dependencies:
   flutter_map: ^4.0.0
   http: ^0.13.5
   http_plus: ^0.2.2
-  isar_community: ^1.2.1
-  isar_community_flutter_libs: ^1.2.1
+  isar_community: ^3.3.0-dev.2
+  isar_community_flutter_libs: ^3.3.0-dev.2
   latlong2: ^0.8.0
   meta: ^1.7.0
   path: ^1.8.2
