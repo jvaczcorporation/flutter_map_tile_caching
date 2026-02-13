@@ -26,7 +26,7 @@ import 'package:flutter_map/plugin_api.dart';
 import 'package:http/http.dart';
 import 'package:http/io_client.dart';
 import 'package:http_plus/http_plus.dart';
-import 'package:isar/isar.dart';
+import 'package:isar_community/isar.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:meta/meta.dart';
 import 'package:path/path.dart' as path;

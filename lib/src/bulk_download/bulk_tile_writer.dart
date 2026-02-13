@@ -6,7 +6,7 @@ import 'dart:isolate';
 
 import 'package:async/async.dart';
 import 'package:flutter/foundation.dart';
-import 'package:isar/isar.dart';
+import 'package:isar_community/isar.dart';
 import 'package:meta/meta.dart';
 
 import '../../flutter_map_tile_caching.dart';

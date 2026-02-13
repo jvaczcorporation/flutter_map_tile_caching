@@ -3,7 +3,7 @@
 
 import 'dart:io';
 
-import 'package:isar/isar.dart';
+import 'package:isar_community/isar.dart';
 import 'package:meta/meta.dart';
 import 'package:path/path.dart' as p;
 import 'package:stream_transform/stream_transform.dart';
